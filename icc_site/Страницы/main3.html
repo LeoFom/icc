@@ -19,7 +19,7 @@
     </div> 
 
 
-    <div class="content title"><div class="center">Островская церковь христиан</div></div>
+    <div class="content title"><div class="center" >Островская церковь христиан</div></div>
     <div class="parallax bg-image0"></div>
       <div class="content">
       Your first instinct, when you start to do something new, should be git init. You’re starting to write a new paper, you’re writing a bit of code to do a computer simulation, you’re mucking around with some new data … anything: think git init.
@@ -32,7 +32,11 @@
   <style>
     a,li { color: #B88746;}
 
-    .center { text-align: center; display: block; padding: auto; position: inherit; } 
+    .center {  
+      position: absolute; /* Абсолютное позиционирование */
+      top: 100px; /* Положение от верхнего края */
+      box-sizing: content-box;
+    } 
     .title {font-size: 40px; color:#ffffff; ;}
     .navbar{ 
       background-color: #191919;
